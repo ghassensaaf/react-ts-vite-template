@@ -1,0 +1,1 @@
+## the assets that you need to bundle along with your application goes inside this directory

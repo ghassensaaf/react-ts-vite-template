@@ -1,0 +1,1 @@
+## this file contains the redux store configuration if needed.
