@@ -1,3 +1,12 @@
+import { Box, Container } from '@mui/material';
+import HomeComponent from '../components/HomeComponent';
+
 export default function Home() {
-  return <h1>Hello world!</h1>;
+  return (
+    <Box>
+      <Container>
+        <HomeComponent />
+      </Container>
+    </Box>
+  );
 }

@@ -11,6 +11,7 @@ This template provides a solid starting point for your React projects with TypeS
 - **ESLint (Airbnb config)**: A widely-used JavaScript linter that enforces coding standards to keep your code clean and maintainable.
 - **Prettier**: An opinionated code formatter that ensures consistent code style.
 - **Vitest**: A lightweight and fast test runner for JavaScript and TypeScript projects.
+- **Material-UI (MUI)**: A popular React UI framework for creating beautiful and responsive user interfaces.
 
 ## Usage
 
@@ -61,7 +62,7 @@ The project structure is organized as follows:
 
 - `src/`: Contains your application source code.
 - `public/`: Holds static assets and the HTML template.
-- `tests/`: For your test files.
+- `test/`: For your test files.
 - `dist/`: The production build output directory.
 
 ## Configuration

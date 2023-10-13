@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material';
 
 // Lazy Loading Pages
-
 const Home = lazy(() => import('./pages/Home'));
+const NotFound = lazy(() => import('./pages/errors/NotFound'));
 
 const theme = createTheme({
   palette: {
@@ -38,6 +38,14 @@ function App() {
           element={
             <React.Suspense>
               <Home />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <React.Suspense>
+              <NotFound />
             </React.Suspense>
           }
         />
